@@ -1,19 +1,35 @@
 {
-  "private": true,
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@iconify-json/devicon": "^1.2.4",
+    "@iconify-json/file-icons": "^1.2.0",
+    "@iconify-json/logos": "^1.2.3",
+    "@iconify-json/ph": "^1.2.1",
+    "@iconify-json/skill-icons": "^1.2.0",
+    "@iconify-json/vscode-icons": "^1.2.2",
     "@nuxt/content": "^2.13.4",
+    "@vueuse/core": "^11.2.0",
+    "@vueuse/nuxt": "^11.2.0",
     "nuxt": "^3.13.2"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^3.8.0",
     "@nuxt/fonts": "^0.10.2",
     "@nuxt/image": "^1.8.1",
-    "@nuxt/ui": "^2.18.7"
+    "@nuxt/ui": "^2.18.7",
+    "@nuxtjs/html-validator": "^1.8.2",
+    "@tailwindcss/typography": "^0.5.15",
+    "eslint": "^9.13.0",
+    "eslint-plugin-format": "^0.1.2",
+    "eslint-plugin-tailwindcss": "^3.17.5"
   }
 }
